@@ -1,0 +1,39 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+  background-color: #edffde;
+  padding: 0 1em;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+input:hover {
+  border: 2px solid hsl(0, 0%, 31%);
+}
+
+button{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(160, 169, 255);
+    color: white;
+    cursor: pointer;
+    margin-top: 2em;
+    transition: all 0.1s ease-in-out;
+}
+
+button:hover {
+    background-color: rgb(94, 107, 255);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
