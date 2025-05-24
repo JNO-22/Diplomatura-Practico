@@ -34,24 +34,30 @@ const FormularioContacto = () => {
         <input
           type="text"
           name="nombre"
+          required
+          minLength={4}
           value={value.nombre}
           onChange={handleChange}
           placeholder={"Escribe Tu nomre"}
         />
         <label htmlFor="email">Email</label>
         <input
-          type="text"
+          type="email"
           name="email"
+          required
           value={value.email}
           onChange={handleChange}
+          minLength={6}
           placeholder={"Escribe Tu Email"}
         />
         <label htmlFor="telefono">Telefono</label>
         <input
-          type="text"
+          type="tel"
           name="telefono"
+          required
           value={value.telefono}
           onChange={handleChange}
+          minLength={9}
           placeholder={"Escribe Tu Telefono"}
         />
         <button type="submit"> Guardar </button>
