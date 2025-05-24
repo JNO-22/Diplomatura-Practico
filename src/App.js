@@ -1,4 +1,4 @@
-import FormularioContacto from "./FormularioContacto";
+import FormularioContacto from "./Components/FormularioContacto";
 import "./App.css";
 
 function App() {
